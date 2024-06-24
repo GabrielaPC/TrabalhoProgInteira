@@ -4,4 +4,4 @@ Repositório contendo todos os trabalhos da disciplina Programação Inteira no 
 
 Aluna: Gabriela Pinheiro
 
-Cada trabalho estara armazenado na sua pasta correspondente.
+Cada trabalho estará armazenado na sua pasta correspondente.

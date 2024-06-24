@@ -1,0 +1,391 @@
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_Threads                                 6
+CPXPARAM_MIP_Strategy_File                       3
+CPXPARAM_MIP_Interval                            100
+CPXPARAM_MIP_Strategy_HeuristicFreq              -1
+CPXPARAM_TimeLimit                               86400
+CPXPARAM_MIP_Limits_CutsFactor                   0
+Legacy callback                                  UD
+Clique table members: 27839.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 1.53 sec. (1239.05 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0        2.0000  6480                      2.0000       16         
+--- USER CUT:relax=2	 bounds=2<->1e+75	 n_rest=1	 Ucuts=1
+      0     0        2.0000  6480                     User: 1       16         
+Detecting symmetries...
+      0     2        2.0000   160                      2.0000       17                                 0             0
+Elapsed time = 13.48 sec. (16412.20 ticks, tree = 0.02 MB, solutions = 0)
+--- USER CUT:relax=3	 bounds=2<->1e+75	 n_rest=2	 Ucuts=2
+--- USER CUT:relax=3	 bounds=2<->1e+75	 n_rest=2	 Ucuts=3
+--- USER CUT:relax=5.25	 bounds=3<->1e+75	 n_rest=16	 Ucuts=4
+--- USER CUT:relax=5.5	 bounds=3<->1e+75	 n_rest=17	 Ucuts=5
+--- USER CUT:relax=5.5	 bounds=3<->1e+75	 n_rest=19	 Ucuts=6
+--- USER CUT:relax=5.5	 bounds=3<->1e+75	 n_rest=15	 Ucuts=7
+--- USER CUT:relax=4.5	 bounds=3<->1e+75	 n_rest=14	 Ucuts=8
+--- USER CUT:relax=6	 bounds=3<->1e+75	 n_rest=16	 Ucuts=9
+--- USER CUT:relax=6	 bounds=3<->1e+75	 n_rest=17	 Ucuts=10
+*    38    17      integral     0        6.0000        3.0000    92880   50.00%
+--- USER CUT:relax=4	 bounds=2<->1e+75	 n_rest=3	 Ucuts=11
+--- USER CUT:relax=4.5	 bounds=3<->6	 n_rest=26	 Ucuts=12
+--- USER CUT:relax=4	 bounds=3<->6	 n_rest=27	 Ucuts=13
+--- USER CUT:relax=4	 bounds=3<->6	 n_rest=28	 Ucuts=14
+--- USER CUT:relax=4	 bounds=3<->6	 n_rest=28	 Ucuts=15
+--- USER CUT:relax=4	 bounds=3<->6	 n_rest=38	 Ucuts=16
+    100    32    infeasible              6.0000        3.0000   148016   50.00%          x_14_3 D    165    159     10
+--- USER CUT:relax=4.66667	 bounds=3<->6	 n_rest=40	 Ucuts=17
+--- USER CUT:relax=4.66667	 bounds=3<->6	 n_rest=49	 Ucuts=18
+--- USER CUT:relax=4.66667	 bounds=3<->6	 n_rest=50	 Ucuts=19
+--- USER CUT:relax=4.66667	 bounds=3<->6	 n_rest=50	 Ucuts=20
+--- USER CUT:relax=5	 bounds=3<->6	 n_rest=56	 Ucuts=21
+--- USER CUT:relax=5	 bounds=3<->6	 n_rest=57	 Ucuts=22
+--- USER CUT:relax=4.5	 bounds=3<->6	 n_rest=67	 Ucuts=23
+--- USER CUT:relax=5	 bounds=3<->6	 n_rest=58	 Ucuts=24
+--- USER CUT:relax=5	 bounds=3<->6	 n_rest=68	 Ucuts=25
+--- USER CUT:relax=5	 bounds=3<->6	 n_rest=68	 Ucuts=26
+--- USER CUT:relax=4	 bounds=3<->6	 n_rest=64	 Ucuts=27
+--- USER CUT:relax=5	 bounds=3<->6	 n_rest=59	 Ucuts=28
+--- USER CUT:relax=5	 bounds=3<->6	 n_rest=59	 Ucuts=29
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=73	 Ucuts=30
+--- USER CUT:relax=4.66667	 bounds=3<->6	 n_rest=69	 Ucuts=31
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=74	 Ucuts=32
+--- USER CUT:relax=4	 bounds=4<->6	 n_rest=81	 Ucuts=33
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=75	 Ucuts=34
+--- USER CUT:relax=4.5	 bounds=4<->6	 n_rest=82	 Ucuts=35
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=83	 Ucuts=36
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=83	 Ucuts=37
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=76	 Ucuts=38
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=76	 Ucuts=39
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=84	 Ucuts=40
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=84	 Ucuts=41
+    200    71        4.0000   148        6.0000        4.0000   204064   33.33%          x_76_2 D     23     11      3
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=77	 Ucuts=42
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=86	 Ucuts=43
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=86	 Ucuts=44
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=78	 Ucuts=45
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=90	 Ucuts=46
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=87	 Ucuts=47
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=87	 Ucuts=48
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=89	 Ucuts=49
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=90	 Ucuts=50
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=87	 Ucuts=51
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=107	 Ucuts=52
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=88	 Ucuts=53
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=88	 Ucuts=54
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=108	 Ucuts=55
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=108	 Ucuts=56
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=109	 Ucuts=57
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=109	 Ucuts=58
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=110	 Ucuts=59
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=110	 Ucuts=60
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=91	 Ucuts=61
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=111	 Ucuts=62
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=111	 Ucuts=63
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=116	 Ucuts=64
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=91	 Ucuts=65
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=91	 Ucuts=66
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=117	 Ucuts=67
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=112	 Ucuts=68
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=118	 Ucuts=69
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=118	 Ucuts=70
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=113	 Ucuts=71
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=113	 Ucuts=72
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=119	 Ucuts=73
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=119	 Ucuts=74
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=113	 Ucuts=75
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=90	 Ucuts=76
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=114	 Ucuts=77
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=114	 Ucuts=78
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=115	 Ucuts=79
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=119	 Ucuts=80
+    300   142        5.0000    24        6.0000        4.0000   254644   33.33%          x_14_0 U    314    308      8
+--- USER CUT:relax=4.25	 bounds=4<->6	 n_rest=129	 Ucuts=81
+--- USER CUT:relax=4.5	 bounds=4<->6	 n_rest=130	 Ucuts=82
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=131	 Ucuts=83
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=143	 Ucuts=84
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=144	 Ucuts=85
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=148	 Ucuts=86
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=157	 Ucuts=87
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=153	 Ucuts=88
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=151	 Ucuts=89
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=151	 Ucuts=90
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=162	 Ucuts=91
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=152	 Ucuts=92
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=152	 Ucuts=93
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=153	 Ucuts=94
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=153	 Ucuts=95
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=160	 Ucuts=96
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=163	 Ucuts=97
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=164	 Ucuts=98
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=161	 Ucuts=99
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=161	 Ucuts=100
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=162	 Ucuts=101
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=162	 Ucuts=102
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=152	 Ucuts=103
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=163	 Ucuts=104
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=163	 Ucuts=105
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=164	 Ucuts=106
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=164	 Ucuts=107
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=164	 Ucuts=108
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=168	 Ucuts=109
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=169	 Ucuts=110
+    400   165        5.0000   149        6.0000        4.0000   269422   33.33%          x_25_2 D    388    382     10
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=176	 Ucuts=111
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=170	 Ucuts=112
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=177	 Ucuts=113
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=178	 Ucuts=114
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=178	 Ucuts=115
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=171	 Ucuts=116
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=171	 Ucuts=117
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=174	 Ucuts=118
+--- USER CUT:relax=4.5	 bounds=4<->6	 n_rest=158	 Ucuts=119
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=177	 Ucuts=120
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=177	 Ucuts=121
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=172	 Ucuts=122
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=175	 Ucuts=123
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=174	 Ucuts=124
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=176	 Ucuts=125
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=179	 Ucuts=126
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=179	 Ucuts=127
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=180	 Ucuts=128
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=180	 Ucuts=129
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=177	 Ucuts=130
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=181	 Ucuts=131
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=181	 Ucuts=132
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=178	 Ucuts=133
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=182	 Ucuts=134
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=182	 Ucuts=135
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=179	 Ucuts=136
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=180	 Ucuts=137
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=181	 Ucuts=138
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=182	 Ucuts=139
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=182	 Ucuts=140
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=189	 Ucuts=141
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=190	 Ucuts=142
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=191	 Ucuts=143
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=192	 Ucuts=144
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=211	 Ucuts=145
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=212	 Ucuts=146
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=212	 Ucuts=147
+    500   199        5.0000    18        6.0000        4.0000   350973   33.33%          x_10_2 U    550    232     16
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=213	 Ucuts=148
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=197	 Ucuts=149
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=213	 Ucuts=150
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=214	 Ucuts=151
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=214	 Ucuts=152
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=214	 Ucuts=153
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=219	 Ucuts=154
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=215	 Ucuts=155
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=216	 Ucuts=156
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=222	 Ucuts=157
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=222	 Ucuts=158
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=234	 Ucuts=159
+--- USER CUT:relax=4.33333	 bounds=4<->6	 n_rest=196	 Ucuts=160
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=234	 Ucuts=161
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=224	 Ucuts=162
+    600   229        5.0000    40        6.0000        4.0000   393439   33.33%          x_14_1 D    692    686     13
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=215	 Ucuts=163
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=225	 Ucuts=164
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=216	 Ucuts=165
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=216	 Ucuts=166
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=226	 Ucuts=167
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=225	 Ucuts=168
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=243	 Ucuts=169
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=241	 Ucuts=170
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=242	 Ucuts=171
+--- USER CUT:relax=4.4	 bounds=4<->6	 n_rest=244	 Ucuts=172
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=248	 Ucuts=173
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=249	 Ucuts=174
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=248	 Ucuts=175
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=250	 Ucuts=176
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=250	 Ucuts=177
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=244	 Ucuts=178
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=251	 Ucuts=179
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=243	 Ucuts=180
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=245	 Ucuts=181
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=252	 Ucuts=182
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=244	 Ucuts=183
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=244	 Ucuts=184
+    700   243    infeasible              6.0000        4.0000   417304   33.33%          x_11_1 U    844    832     15
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=245	 Ucuts=185
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=245	 Ucuts=186
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=246	 Ucuts=187
+--- USER CUT:relax=4.66667	 bounds=4<->6	 n_rest=246	 Ucuts=188
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=253	 Ucuts=189
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=254	 Ucuts=190
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=254	 Ucuts=191
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=255	 Ucuts=192
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=255	 Ucuts=193
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=256	 Ucuts=194
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=256	 Ucuts=195
+--- USER CUT:relax=4.6696	 bounds=4<->6	 n_rest=246	 Ucuts=196
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=257	 Ucuts=197
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=257	 Ucuts=198
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=258	 Ucuts=199
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=258	 Ucuts=200
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=258	 Ucuts=201
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=258	 Ucuts=202
+--- USER CUT:relax=4.67257	 bounds=4<->6	 n_rest=257	 Ucuts=203
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=258	 Ucuts=204
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=259	 Ucuts=205
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=260	 Ucuts=206
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=260	 Ucuts=207
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=266	 Ucuts=208
+    800   237    infeasible              6.0000        4.0000   472167   33.33%          x_11_1 U   1048    400     13
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=264	 Ucuts=209
+--- USER CUT:relax=5	 bounds=4.33333<->6	 n_rest=265	 Ucuts=210
+--- USER CUT:relax=5	 bounds=4.33333<->6	 n_rest=266	 Ucuts=211
+--- USER CUT:relax=5	 bounds=4.33333<->6	 n_rest=267	 Ucuts=212
+--- USER CUT:relax=5	 bounds=4.33333<->6	 n_rest=267	 Ucuts=213
+--- USER CUT:relax=5	 bounds=4.33333<->6	 n_rest=268	 Ucuts=214
+--- USER CUT:relax=5	 bounds=4.33333<->6	 n_rest=268	 Ucuts=215
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=244	 Ucuts=216
+    900   288    infeasible              6.0000        4.3333   511841   27.78%          x_11_3 N    993    987     13
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=241	 Ucuts=217
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=241	 Ucuts=218
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=242	 Ucuts=219
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=242	 Ucuts=220
+   1000   276    infeasible              6.0000        4.6696   516528   22.17%          x_13_2 N   1075    460     11
+Elapsed time = 123.18 sec. (108860.25 ticks, tree = 3.32 MB, solutions = 2)
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=274	 Ucuts=221
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=258	 Ucuts=222
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=258	 Ucuts=223
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=258	 Ucuts=224
+--- USER CUT:relax=5	 bounds=4<->6	 n_rest=259	 Ucuts=225
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=237	 Ucuts=226
+   1100   258        cutoff              6.0000        5.0000   521052   16.67%          x_10_0 N   1438   1390     10
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=242	 Ucuts=227
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=236	 Ucuts=228
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=246	 Ucuts=229
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=247	 Ucuts=230
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=247	 Ucuts=231
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=238	 Ucuts=232
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=238	 Ucuts=233
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=237	 Ucuts=234
+   1200   231        cutoff              6.0000        5.0000   539786   16.67%          x_35_3 N    557    268     19
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=186	 Ucuts=235
+   1300   178    infeasible              6.0000        5.0000   565516   16.67%          x_14_1 N   1530   1524     11
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=182	 Ucuts=236
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=181	 Ucuts=237
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=179	 Ucuts=238
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=179	 Ucuts=239
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=180	 Ucuts=240
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=180	 Ucuts=241
+   1400   186        5.0000    82        6.0000        5.0000   563636   16.67%          x_11_1 D    749    743     10
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=151	 Ucuts=242
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=151	 Ucuts=243
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=152	 Ucuts=244
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=153	 Ucuts=245
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=153	 Ucuts=246
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=154	 Ucuts=247
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=152	 Ucuts=248
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=152	 Ucuts=249
+   1500   155    infeasible              6.0000        5.0000   579343   16.67%          x_25_2 N   1616   1580     10
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=160	 Ucuts=250
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=161	 Ucuts=251
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=161	 Ucuts=252
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=162	 Ucuts=253
+   1600   153    infeasible              6.0000        5.0000   580083   16.67%          x_11_3 N   1712   1706      9
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=155	 Ucuts=254
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=156	 Ucuts=255
+   1700   161        5.0000    74        6.0000        5.0000   585313   16.67%          x_10_0 N   1962   1956     11
+   1800   143    infeasible              6.0000        5.0000   593060   16.67%          x_10_0 N   1121   1115     19
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=125	 Ucuts=256
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=126	 Ucuts=257
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=127	 Ucuts=258
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=127	 Ucuts=259
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=126	 Ucuts=260
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=126	 Ucuts=261
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=128	 Ucuts=262
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=129	 Ucuts=263
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=123	 Ucuts=264
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=124	 Ucuts=265
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=124	 Ucuts=266
+   1900   125        5.0000    64        6.0000        5.0000   603953   16.67%          x_25_0 N   2254   2248     12
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=120	 Ucuts=267
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=105	 Ucuts=268
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=121	 Ucuts=269
+   2000   121        5.0000   132        6.0000        5.0000   606534   16.67%          x_11_2 D   2362   2356     11
+Elapsed time = 184.45 sec. (146929.04 ticks, tree = 0.92 MB, solutions = 2)
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=122	 Ucuts=270
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=122	 Ucuts=271
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=105	 Ucuts=272
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=105	 Ucuts=273
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=92	 Ucuts=274
+   2100    95        5.0000    92        6.0000        5.0000   625053   16.67%          x_13_2 D   1957   1951     11
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=92	 Ucuts=275
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=93	 Ucuts=276
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=93	 Ucuts=277
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=83	 Ucuts=278
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=84	 Ucuts=279
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=84	 Ucuts=280
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=85	 Ucuts=281
+   2200    89        5.0000   102        6.0000        5.0000   629182   16.67%          x_29_0 D   1535   1529      7
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=86	 Ucuts=282
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=86	 Ucuts=283
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=87	 Ucuts=284
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=87	 Ucuts=285
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=87	 Ucuts=286
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=87	 Ucuts=287
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=85	 Ucuts=288
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=84	 Ucuts=289
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=86	 Ucuts=290
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=86	 Ucuts=291
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=83	 Ucuts=292
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=83	 Ucuts=293
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=84	 Ucuts=294
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=84	 Ucuts=295
+   2300    68    infeasible              6.0000        5.0000   648183   16.67%          x_11_1 N   2384   2204      9
+   2400    67    infeasible              6.0000        5.0000   652069   16.67%          x_11_3 N   2670   2658     13
+   2500    66        5.0000   103        6.0000        5.0000   663206   16.67%          x_11_3 D   2588   2582      9
+   2600    48    infeasible              6.0000        5.0000   672679   16.67%          x_14_1 N   1943   1937     11
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=39	 Ucuts=296
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=33	 Ucuts=297
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=34	 Ucuts=298
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=35	 Ucuts=299
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=35	 Ucuts=300
+   2700    36        5.0000    14        6.0000        5.0000   685733   16.67%          x_13_3 U   2051   2039     11
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=36	 Ucuts=301
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=36	 Ucuts=302
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=37	 Ucuts=303
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=37	 Ucuts=304
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=38	 Ucuts=305
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=38	 Ucuts=306
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=39	 Ucuts=307
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=39	 Ucuts=308
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=37	 Ucuts=309
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=37	 Ucuts=310
+   2800    25        cutoff              6.0000        5.0000   692569   16.67%          x_14_1 N   2159   2147     12
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=19	 Ucuts=311
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=20	 Ucuts=312
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=20	 Ucuts=313
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=21	 Ucuts=314
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=21	 Ucuts=315
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=22	 Ucuts=316
+--- USER CUT:relax=5	 bounds=5<->6	 n_rest=22	 Ucuts=317
+   2900    23        5.0000    96        6.0000        5.0000   701439   16.67%          x_10_0 N   3051   3045     12
+
+User cuts applied:  64
+
+Root node processing (before b&c):
+  Real time             =   13.40 sec. (16331.02 ticks)
+Parallel b&c, 6 threads:
+  Real time             =  231.98 sec. (171939.75 ticks)
+  Sync time (average)   =   61.16 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  245.38 sec. (188270.78 ticks)
+----- ACABOU ----
+Resolveu?: Sim
+Tempo(s): 600.456
+Limite inferior: 6
+Minimo encontrado: 6
+Cortes gerados: 317
+Nos analisados: 2979
+

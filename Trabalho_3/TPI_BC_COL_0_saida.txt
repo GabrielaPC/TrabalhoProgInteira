@@ -1,0 +1,74 @@
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_Threads                                 6
+CPXPARAM_MIP_Strategy_File                       3
+CPXPARAM_MIP_Interval                            100
+CPXPARAM_MIP_Strategy_HeuristicFreq              -1
+CPXPARAM_TimeLimit                               86400
+CPXPARAM_MIP_Limits_CutsFactor                   0
+Legacy callback                                  UD
+Clique table members: 8049.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.04 sec. (18.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0        2.0000    50                      2.0000      293         
+Detecting symmetries...
+      0     2        2.0000    50                      2.0000      293                                 0             0
+Elapsed time = 0.32 sec. (345.41 ticks, tree = 0.02 MB, solutions = 0)
+--- USER CUT:relax=3	 bounds=2<->1e+75	 n_rest=2	 Ucuts=1
+--- USER CUT:relax=2.04348	 bounds=2<->1e+75	 n_rest=2	 Ucuts=2
+--- USER CUT:relax=4	 bounds=2<->1e+75	 n_rest=3	 Ucuts=3
+--- USER CUT:relax=4	 bounds=2<->1e+75	 n_rest=3	 Ucuts=4
+--- USER CUT:relax=4	 bounds=2<->1e+75	 n_rest=4	 Ucuts=5
+--- USER CUT:relax=5	 bounds=2<->1e+75	 n_rest=5	 Ucuts=6
+*     5     3      integral     0       22.0000        2.0000     2539   90.91%
+--- USER CUT:relax=4	 bounds=2<->22	 n_rest=5	 Ucuts=7
+--- USER CUT:relax=5	 bounds=2<->22	 n_rest=6	 Ucuts=8
+--- USER CUT:relax=4	 bounds=2<->22	 n_rest=7	 Ucuts=9
+--- USER CUT:relax=17	 bounds=2<->22	 n_rest=6	 Ucuts=10
+--- USER CUT:relax=5	 bounds=2<->22	 n_rest=9	 Ucuts=11
+--- USER CUT:relax=4	 bounds=2<->22	 n_rest=10	 Ucuts=12
+--- USER CUT:relax=5	 bounds=2<->22	 n_rest=11	 Ucuts=13
+*    16    11      integral     0       17.0000        3.0000     4124   82.35%
+--- USER CUT:relax=4	 bounds=2<->22	 n_rest=11	 Ucuts=14
+--- USER CUT:relax=4	 bounds=2<->22	 n_rest=11	 Ucuts=15
+--- USER CUT:relax=5	 bounds=2<->22	 n_rest=12	 Ucuts=16
+*    18    12      integral     0       12.0000        3.0000     4510   75.00%
+--- USER CUT:relax=5	 bounds=2<->22	 n_rest=13	 Ucuts=17
+--- USER CUT:relax=5	 bounds=2<->22	 n_rest=13	 Ucuts=18
+--- USER CUT:relax=5	 bounds=2<->22	 n_rest=14	 Ucuts=19
+--- USER CUT:relax=5	 bounds=2<->22	 n_rest=14	 Ucuts=20
+--- USER CUT:relax=5	 bounds=2<->12	 n_rest=9	 Ucuts=21
+--- USER CUT:relax=5	 bounds=2<->12	 n_rest=10	 Ucuts=22
+--- USER CUT:relax=6	 bounds=2<->22	 n_rest=16	 Ucuts=23
+--- USER CUT:relax=5	 bounds=2<->12	 n_rest=11	 Ucuts=24
+--- USER CUT:relax=5	 bounds=2<->12	 n_rest=11	 Ucuts=25
+--- USER CUT:relax=6	 bounds=2<->22	 n_rest=17	 Ucuts=26
+*    52    10      integral     0        5.0000        3.0000     5215   40.00%
+--- USER CUT:relax=5	 bounds=3<->12	 n_rest=13	 Ucuts=27
+--- USER CUT:relax=6	 bounds=3<->12	 n_rest=14	 Ucuts=28
+--- USER CUT:relax=6	 bounds=3<->12	 n_rest=14	 Ucuts=29
+
+User cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =    0.32 sec. (342.54 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    1.83 sec. (2678.24 ticks)
+  Sync time (average)   =    1.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    2.15 sec. (3020.78 ticks)
+----- ACABOU ----
+Resolveu?: Sim
+Tempo(s): 5.90253
+Limite inferior: 5
+Minimo encontrado: 5
+Cortes gerados: 29
+Nos analisados: 65
+

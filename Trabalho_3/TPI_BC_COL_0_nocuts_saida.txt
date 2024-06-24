@@ -1,0 +1,39 @@
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_Threads                                 6
+CPXPARAM_MIP_Strategy_File                       3
+CPXPARAM_MIP_Interval                            100
+CPXPARAM_MIP_Strategy_HeuristicFreq              -1
+CPXPARAM_TimeLimit                               86400
+CPXPARAM_MIP_Limits_CutsFactor                   0
+Clique table members: 8049.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Root relaxation solution time = 0.05 sec. (18.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        2.0000    50                      2.0000      293         
+Detecting symmetries...
+      0     2        2.0000    50                      2.0000      293         
+Elapsed time = 0.34 sec. (335.05 ticks, tree = 0.02 MB, solutions = 0)
+*    35    11      integral     0        5.0000        3.0000     5311   40.00%
+
+Root node processing (before b&c):
+  Real time             =    0.33 sec. (332.18 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    2.34 sec. (3002.95 ticks)
+  Sync time (average)   =    1.27 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    2.68 sec. (3335.13 ticks)
+----- ACABOU ----
+Resolveu?: Sim
+Tempo(s): 7.83157
+Limite inferior: 5
+Minimo encontrado: 5
+Cortes gerados: 0
+Nos analisados: 63
+
