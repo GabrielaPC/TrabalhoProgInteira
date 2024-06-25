@@ -73,6 +73,6 @@ Este comando apaga os arquivo executáveis e modelo gerados.
 
 ## Observações sobre os resultados obtidos
 
-Em casos com instâncias maiores (Exemplos 2 e 3), o tempo de execução é maior com o uso dos cortes, porém a quantidade de nós analisados pelo CPLEx é reduzida.
+Em casos com instâncias maiores (Exemplos 2 e 3), o tempo de execução é maior com o uso dos cortes, porém a quantidade de nós analisados pelo CPLEx tende a ser reduzida.
 
-Não foi possível terminar a execução de ambas as versões para o exemplo 3 devido ao seu tamanho, porém ambas chegaram ao valor mínimo.
+Não foi possível terminar a execução de ambas as versões para o exemplo 3 devido ao seu tamanho, porém elas chegaram ao valor mínimo.
